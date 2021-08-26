@@ -13,7 +13,7 @@ theme = "LoveIt"
   #  LoveIt theme version
   version = "0.2.X"
   # site description
-  description = "Dalraf: Linux, Docker and Python Lover"
+  description = "Dalraf: Containers, Docker and Python"
   # site keywords
   keywords = ["Theme", "Hugo"]
   # site default theme ("light", "dark", "auto")
@@ -31,7 +31,7 @@ theme = "LoveIt"
   #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "LoveIt"
+    title = "Dalraf's Site"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -45,7 +45,7 @@ theme = "LoveIt"
 
   #  Search config
   [params.search]
-    enable = true
+    enable = false
     # type of search engine ("lunr", "algolia")
     type = "lunr"
     # max index length of the chunked content
@@ -90,7 +90,7 @@ theme = "LoveIt"
     #  Custom content (HTML format is supported)
     custom = ''
     #  whether to show Hugo and theme info
-    hugo = true
+    hugo = false
     #  whether to show copyright info
     copyright = true
     #  whether to show the author
@@ -132,18 +132,18 @@ theme = "LoveIt"
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
       #  title shown in home page (HTML format is supported)
-      title = ""
+      title = "Dalraf's personal site"
       # subtitle shown in home page
-      subtitle = "Dalraf: Linux, Docker and Python Lover"
+      subtitle = "Linux, Containers and Python"
       # whether to use typeit animation for subtitle
-      typeit = true
+      typeit = false
       # whether to show social links
       social = true
       #  disclaimer (HTML format is supported)
-      disclaimer = ""
+      disclaimer = "Curiosity and intelligence when manifested should be celebrated"
     # Home page posts
     [params.home.posts]
-      enable = true
+      enable = false
       # special amount of posts in each home posts page
       paginate = 6
       #  replaced with hiddenFromHomePage in params.page
