@@ -13,11 +13,11 @@ theme = "LoveIt"
   #  LoveIt theme version
   version = "0.2.X"
   # site description
-  description = "Dalraf, Linux, Docker and Python Lover"
+  description = "Dalraf: Linux, Docker and Python Lover"
   # site keywords
   keywords = ["Theme", "Hugo"]
   # site default theme ("light", "dark", "auto")
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   gitRepo = ""
   #  which hash function used for SRI, when empty, no SRI is used
@@ -134,7 +134,7 @@ theme = "LoveIt"
       #  title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
-      subtitle = "Dalraf, Linux, Docker and Python Lover"
+      subtitle = "Dalraf: Linux, Docker and Python Lover"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -228,7 +228,7 @@ theme = "LoveIt"
     # whether to enable lightgallery
     lightgallery = false
     #  whether to enable the ruby extended syntax
-    ruby = true
+    ruby = false
     #  whether to enable the fraction extended syntax
     fraction = true
     #  whether to enable the fontawesome extended syntax
